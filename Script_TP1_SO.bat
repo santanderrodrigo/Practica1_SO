@@ -79,7 +79,7 @@ for /l %%i in (0,1,4) do (
         mkdir "%newDir%\!alumnos[%%i]!\!materia!\Archivos_extras"
 	type nul > "%newDir%\!alumnos[%%i]!\!materia!\Archivos_extras"\Libro_1.pdf"
 	type nul > "%newDir%\!alumnos[%%i]!\!materia!\Archivos_extras"\Articulo_1.pdf"
-	type nul > "%newDir%\!alumnos[%%i]!\!materia!\Archivos_extras"\Presentación.ppt"
+	type nul > "%newDir%\!alumnos[%%i]!\!materia!\Archivos_extras"\Presentacion.ppt"
     )
 )
 
