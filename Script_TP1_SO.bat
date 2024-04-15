@@ -35,7 +35,7 @@ set "alumnos[4]=Federico_Cornago"
 set "alumnos[4,materias]=0 1 2 3"
 
 REM Iteramos sobre cada alumno
-for /l %%i in (0,1,3) do (
+for /l %%i in (0,1,4) do (
     REM Creamos la carpeta del alumno
     mkdir "%newDir%\!alumnos[%%i]!"
 
