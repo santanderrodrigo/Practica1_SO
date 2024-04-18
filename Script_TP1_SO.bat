@@ -31,11 +31,9 @@ set "alumnos[2]=Ivan_Ruiz"
 set "alumnos[2,materias]=1 2"
 set "alumnos[3]=Gonzalo_Lastra"
 set "alumnos[3,materias]=0 1 3"
-set "alumnos[4]=Federico_Cornago"
-set "alumnos[4,materias]=0 1 2 3"
 
 REM Iteramos sobre cada alumno
-for /l %%i in (0,1,4) do (
+for /l %%i in (0,1,3) do (
     REM Creamos la carpeta del alumno
     mkdir "%newDir%\!alumnos[%%i]!"
 
